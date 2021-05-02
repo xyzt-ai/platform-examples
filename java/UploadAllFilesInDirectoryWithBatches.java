@@ -220,9 +220,9 @@ class UploadAllFilesInDirectoryWithBatches {
 
   private static void printUsage() {
     System.out.println(
-        "Uploads all files from the specified directory into the specified data set.\n" +
+        "Uploads all files from the specified directory into the specified data set, using the subdirectories as batches.\n" +
             "Usage: \n\n" +
-            "java UploadAllFilesInDirectory -i <InputDir> -d <DataSetId> -u <APIUserName> -p <APIIUserPassword>"
+            "java UploadAllFilesInDirectoryWithBatches -i <InputDir> -d <DataSetId> -u <APIUserName> -p <APIIUserPassword>"
     );
   }
 
