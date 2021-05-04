@@ -1,5 +1,9 @@
 #/bin/bash
 
+# Script for uploading all .csv.gz files in a hierarchical folder structure to the platform.
+# change the user, password, and dataKey for your case. Where user and password are API keys (to be set by navigating to the top right menu bar and clicking on the user icon and choosing 'User management'
+# The dataKey is the key that can be found by going to your data set, click edit, and then go to Upload Data. At the bottom of this page you will see the data key.
+
 url="https://dev-api.platform-xyzt.ai/public/api"
 user="api-user-f65a5e22-ddb7-47c9-96e8-a1a5171c1a86@xyzt.ai"
 password="69023c3f-0962-4c33-80c7-ed9618e3a22e"
