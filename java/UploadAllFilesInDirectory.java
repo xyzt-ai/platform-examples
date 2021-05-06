@@ -32,7 +32,7 @@ import java.util.UUID;
  */
 class UploadAllFilesInDirectory {
 
-  private static final String PLATFORM_URL = "https://dev-api.platform-xyzt.ai";
+  private static final String PLATFORM_URL = "https://api.platform-xyzt.ai";
 
   private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder().build();
   private static final String MULTI_PART_BOUNDARY = "-------------" + UUID.randomUUID().toString();
