@@ -38,3 +38,9 @@ To upload using the API, you first need to create and configure a Data Set. You 
    - user: this is the API username
    - password: this is the API user's password
    - dataKey: this is the data set id
+
+## Python library
+
+* The Python library contains a single API class which uses urllib3 to communicate with the xyzt.ai platform API.
+* API calls which return a status code < 200 or >= 300 will cause a `urllib3.exceptions.HTTPError` to be raised.
+* Example code can be found in the documentation block at the top of the file.
