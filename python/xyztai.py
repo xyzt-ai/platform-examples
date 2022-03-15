@@ -231,6 +231,6 @@ class API:
         r = self._http.request('GET', url, headers=headers)
         if r.status < 200 or r.status >= 300:
             errmsg = json.loads(r.data.decode(self._encoding))['message']
-            message = f'Retrieval of data sets Deletion of batch "{batch}" file failed with status {r.status}: {errmsg}'
+            message = f'Retrieval of data sets failed with status {r.status}: {errmsg}'
             raise urllib3.exceptions.HTTPError(message)
         return json.loads(r.data.decode(self._encoding))
