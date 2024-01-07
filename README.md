@@ -38,3 +38,14 @@ To upload using the API, you first need to create and configure a Data Set. You 
    - user: this is the API username
    - password: this is the API user's password
    - dataKey: this is the data set id
+
+## Python examples
+
+* The python example uses the requests library
+    - install it by running `pip install requests`
+* The parameters to modify are set in the first lines:
+   - user: this is the API username
+   - password: this is the API user's password
+   - dataKey: this is the data set id
+   - folder: the folder that contains the .csv.gz files to upload
+
