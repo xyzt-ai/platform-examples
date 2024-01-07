@@ -18,7 +18,7 @@ url = "https://api.platform-xyzt.ai/public/api"
 user = "put_here_your_api_user_name"
 password = "put_here_your_api_user_password"
 dataKey = "put_here_the_data_set_id"
-folder = "/Users/bartadams/Data/onboarding/Onboarding/vessels/data"
+folder = "/replace/this/with/the/path/to/your/files/"
 
 
 def request_token():
