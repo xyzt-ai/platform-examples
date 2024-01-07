@@ -16,6 +16,8 @@ To upload using the API, you first need to create and configure a Data Set. You 
 - Configure the data set, by uploading the data set properties csv file and setting the processing settings
 - You can then upload data with the API
 
+Note that you can also use code generation tools that generate conventient wrapper libraries around the xyzt.ai REST API in your favorite language. Please refer to [the dedicated tutorial](https://docs.platform-xyzt.ai/tutorials/using-the-api/goal.html).
+
 ## Java examples
 
 * The Java examples require JDK 11 or higher.
