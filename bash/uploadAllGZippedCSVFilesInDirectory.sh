@@ -4,6 +4,11 @@
 # change the user, password, and dataKey for your case. Where user and password are API keys (to be set by navigating to the top right menu bar and clicking on the user icon and choosing 'User management'
 # The dataKey is the key that can be found by going to your data set, click edit, and then go to Upload Data. At the bottom of this page you will see the data key.
 
+# Note that this script assumes you already initialized a new data set, by providing a name, description, and defined
+# the data properties (and optionally metadata properties). These actions can also be scripted, but this is not
+# shown in this script. Please refer to https://docs.platform-xyzt.ai/tutorials/using-the-api/goal.html for using
+# an api generator to get simple access to the full xyzt.ai platform REST API
+
 url="https://api.platform-xyzt.ai/public/api"
 user="put_here_your_api_user_name"
 password="put_here_your_api_user_password"
